@@ -50,8 +50,8 @@ public class PayPalController {
         payment.setTransactions(transactions);
 
         RedirectUrls redirectUrls = new RedirectUrls();
-        redirectUrls.setCancelUrl("https://naughty-edison-37ca52.netlify.com/cancel");
-        redirectUrls.setReturnUrl("https://naughty-edison-37ca52.netlify.com/");
+        redirectUrls.setCancelUrl("https://wlink.netlify.com/cancel");
+        redirectUrls.setReturnUrl("https://wlink.netlify.com/");
         payment.setRedirectUrls(redirectUrls);
         Payment createdPayment;
         try {
